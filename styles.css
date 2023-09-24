@@ -1,0 +1,138 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #697e69;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the tagline */
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style the main content sections */
+section {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #0e7e0e;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Style the benefits list */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+/* Style the CTA button */
+.cta-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #ffe100;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style the images section */
+#images {
+    text-align: center;
+}
+
+.image {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .tagline {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+    }
+}
